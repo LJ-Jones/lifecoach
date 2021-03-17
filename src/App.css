@@ -1,3 +1,13 @@
+html,
+body {
+  font-family: 'Roboto';
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
 }
@@ -13,15 +23,162 @@
   }
 }
 
+.nav-top {
+  background-color: #fec5bb;
+  height: 1rem;
+  padding: 1rem 1rem;
+}
+
+nav {
+  background-color: #ffffff;
+  padding: 1rem 1rem;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+}
+
+.image-wrapper {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.services {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0.5rem;
+}
+
+.services-h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+  padding: 0.5rem;
+}
+
+.services-h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 0.5rem;
+}
+
+.services-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 15rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.about {
+  background-color: #f8edeb;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 2rem;
+}
+
+.about-h4 {
+  font-family: 'Tangerine', cursive;
+  font-size: 5rem;
+  font-weight: 700;
+  padding-top: -0.5rem;
+  padding: 0.5rem;
+  color: #fec5bb;
+}
+
+.about-image {
+  border-radius: 0.5rem;
+}
+
+.journey {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 0.5rem;
+}
+
+.journey-h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 0.5rem;
+}
+
+.contact {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+  padding: 0.5rem;
+}
+
+.getintouch {
+  background-color: #fec89a;
+  border-color: #fa9c23;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.techniques {
+  background-color: #f8edeb;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 0.5rem;
+}
+
+.techniques-h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 0.5rem;
+}
+
+/* Footer    (from original margin-top: 8rem;  bottom: 0; )*/
+footer {
+  padding-left: 8rem;
+  margin-right: 5rem;
+  bottom: 0;
+  background-color: #d8e2dc;
   color: white;
+  width: 100%;
+}
+
+.footer-text {
+  font-size: 1.3rem;
+  font-family: 'Roboto';
+}
+
+.footer-text b {
+  font-weight: '700';
 }
 
 .App-link {
